@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Kayak World Magazine</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+	<link rel="stylesheet" href="..\estilo\Estilo.css"/>
+</head>
+
+
+<body>
+	<header>
+		<nav class="navbarheader">
+			
+			<div class="logoimg">
+			<a><img src="..\img\kayaklogo.jpg" width="160" height="90"></a>
+			</div>
+			
+			<div class="logo">
+				<h1 class="logo"><a href="..\index.html">KWM</a></h1>
+			</div>
+
+			<div class="navbar">
+				<ul>
+					<li><a href="..\index.html">Home</a></li>
+					<li><a href="aboutus.html">About Us</a></li>
+					<li><a href="ouractivities.html">Our Activities</a></li>
+					<li><a href="ourkayaks.html">Our Kayaks</a></li>
+					<li class="current"><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+
+		<h2>Contact</h2>
+
+		<img class="contactimg" src="..\img\Kayak1.jpg" alt="image not found">
+	<section>
+		<form class="contactform">
+			<label for="Name:">Name:</label>
+			<input type="text" name="Name:" placeholder="First Name & Last Name">
+			
+			<label for="E-mail:">E-mail:</label>
+			<input type="email" name="E-mail:" placeholder="name@example.com">
+			
+			<label for="Gender:">Gender:</label>
+			
+			<select name="Gender">
+				<option value="M">Male</option>
+				<option value="F">Female</option>
+				<option value="O">Other</option>
+			</select>
+
+			<label for="Message:">Message:</label>
+			<textarea cols="12"	rows="6"	name="Message:" placeholder="Enter your message"></textarea>
+			
+			<label for="accept">Accept Terms and Conditions</label>	
+			<input class="acceptext" type="checkbox"name="accept" value="1">
+			<input type="reset" value="Reset">
+			<input type="submit" value="Submit">
+		</form>
+
+	</section>
+
+	<footer>
+		
+		<ul class="socialmedia">
+			<li>
+				<a href="#">
+					<span class="ion-social-facebook"></span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span class="ion-social-instagram"></span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span class="ion-social-twitter"></span>
+				</a>
+		</ul>		
+		<p>Copyright and Social Networks</p>		
+	</footer>
+</body>

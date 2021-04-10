@@ -1,0 +1,323 @@
+body {
+	font-family: "open sans", sans-serif;
+	font-size: medium;
+	background-image: url("../img/backround.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+}
+
+a {
+	text-decoration: none;
+}
+
+/* inicio estilo header */
+header {
+	background-color: #F9DE92;
+	width: 100%;
+	height: 90px;
+}
+
+.navbarheader {
+	display: flex;
+}
+
+.logo {
+	
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	position: relative;
+	left: 80px;
+}
+.logo a {
+	color: #44577F;
+}
+
+.logoimg img{
+	border-radius: 50%;
+}
+
+.navbar {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	width: 750px;
+	position: relative;
+	left: 20%;
+	
+}
+
+ul li {
+	color: #5c2a01; 
+	display: inline;
+	margin:20px;
+	padding: 10px;
+	z-index: 1;
+}
+
+.navbar ul li a {
+	display: inline-block;
+	color: #44577F;
+	
+}
+.navbar ul li a:hover {
+	background-color:#44577F;
+	color:#F9DE92; 
+	border-color:#44577F;
+	padding: 2px;
+
+}
+
+.current a{
+	color:#44577F; 
+	text-decoration: underline;
+}
+/* fin estilo header*/
+
+
+h2, h3 {
+	color: #44577F;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	left: 40%;
+	width: 325px;
+	
+}
+
+.indeximg {
+	width: 50%;
+	height: auto;
+	position:relative;
+	left: 28%;
+}
+
+.videoau {
+	position: relative;
+	left: 24%; 
+}
+
+.contactimg{
+	position: relative;
+	left: 30%; 
+}
+ /*carousel para Our Activities */
+.carousel-item img {
+	width: 50%;
+	height: auto;
+	position: relative;
+	left: 28%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+} /* en proceso de mejora */
+
+article	{
+	background-color: #fefae0; 
+	color: #1d3557;
+	display: flex;
+	justify-content: center;
+	width: 50%;
+	margin: 20px 0px 20px;
+	position: relative;
+	left: 28%;
+
+}
+ /* inicio estilo footer*/
+footer	{
+	background-color: #44577F;
+	color: #ffffff;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-content: center;
+	width: 100%;
+}
+
+footer p {
+	display: flex;
+	flex-flow: ;
+	justify-content: center;
+	align-items: center;
+}
+
+.socialmedia {
+	display: flex;
+	align-content: center;
+	margin: 0px;
+	padding: 0px;
+
+}
+.ion-social-facebook{
+	margin:0px 5px 0px 5px;
+}
+.socialmedia a{
+	color: #44577F;
+	background-color: white;
+	border-radius: 50%;
+	margin:10px;
+	padding: 10px;
+	
+} 
+.socialmedia a:hover{
+	color:#44577F;
+	background-color:#F9DE92;
+}
+
+/*fin estilo footer*/
+
+   /*efectos de imagenes en Our Activities*/
+.carousel-item{
+	padding: 10px;
+	margin:10px;
+}
+
+.fxs2 {
+	transition: transform 0.5s;
+	cursor: pointer;
+}	
+
+.fxs2:hover{
+	transform: scale(1.15);
+
+}
+
+/*Tabla en Our Kayaks*/
+
+table{
+	position: relative;
+	left: 27%;
+}
+
+table, th, td {
+  color: black;
+  background-color: #F9DE92;
+  border: 2px solid black;
+  width: 50%;
+  height: 70px;
+}
+
+/* grilla en Our kayaks*/
+.grid {
+  	background-color: #F9DE92;
+  	color: black; 
+  	display: grid;
+  	grid-template-areas:
+  	 "imagenUno imagenDos"
+  	 "txtUno txtDos"
+  	 "imagenTres imagenCuatro"
+  	 "txtTres txtCuatro";
+  	grid-template-columns: 360px 360px;
+  	grid-template-rows: 85px 85px 85px 85px;
+   	width: 720px;
+   	position: relative;
+  	left: 25%;
+}
+
+.kayaks1 {
+  	grid-area: "imagenUno";
+  	border-radius: 10px;
+}
+  
+.kayaks2 {
+  	grid-area: "imagenDos";
+  	border-radius: 10px;
+  	
+}
+.tkayaks1 {
+  	grid-area: "txtUno";
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+.tkayaks2 {
+  	grid-area: "txtDos";
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+.kayaks3 {
+  	grid-area: "imagenTres";
+  	border-radius: 10px;
+  	
+}
+  
+.kayaks4 {
+  	grid-area: "imagenCuatro";
+  	border-radius: 10px;
+  	
+}
+.tkayaks3 {
+  	grid-area: "txtTres";
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+
+.tkayaks4 {
+  	grid-area: "txtCuatro";
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+   /*efectos de imagenes en Our Kayaks*/
+
+.fxs {
+	transition: transform 0.5s;
+	cursor: pointer;
+}	
+
+.fxs:hover{
+	transform: scale(1.5);
+}
+
+   /* Formulario en Contact*/
+
+
+.contactform {
+	position: relative;
+	left: 25%; 
+}
+
+form {
+	width: 50%;
+	padding: 12px 20px; 
+	float: center;
+}
+
+input[type=email], input[type=text], select, textarea{
+	width: 100%;
+	padding: 12px 20px;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+input[type=submit] {
+  background-color: #74c69d;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: center;
+  }
+
+input[type=reset] {
+  background-color: coral;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: center;
+  }
+
+label{
+  	color: black;
+  	background-color: #F9DE92;
+  	border-radius: 7px;
+ }
+
