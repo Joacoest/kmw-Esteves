@@ -7,38 +7,51 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 	<link rel="stylesheet" href="..\estilo\Estilo.css"/>
 </head>
 
 
 <body>
-	<header>
-		<nav class="navbarheader">
-			
-			<div class="kayaklogo">
-			<a><img src="..\img\kayaklogo.jpg" width="160" height="90"></a>
-			</div>
-			
-			<div class="logo">
-				<h1 class="logo"><a href="..\index.html">KWM</a></h1>
-			</div>
+	<div class="container-fluid">
+		<header>
+			<nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-between">
+   				<a class="navbar-brand" href="#">
+    				<img src="..\img\kayaklogo.jpg" alt="Logo" style="width:100px;">
+  				</a>
 
-			<div class="navbar">
-				<ul>
-					<li><a href="..\index.html">Home</a></li>
-					<li class="current"><a href="aboutus.html">About Us</a></li>
-					<li><a href="ouractivities.html">Our Activities</a></li>
-					<li><a href="ourkayaks.html">Our Kayaks</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-			</div>
-		</nav>
-	</header>
+				<div class="logo">
+					<h1 class="logo"><a href="..\index.html">KWM</a></h1>
+				</div>
+
+				<div class="navbar">
+					<ul class="navbar-nav">
+    					<li class="nav-item">
+							<a href="..\index.html">Home</a>
+						</li>
+						<li class="nav-item active">
+							<a href="aboutus.html">About Us</a>
+						</li>
+						<li class="nav-item">
+							<a href="ouractivities.html">Our Activities</a>
+						</li>
+						<li class="nav-item">
+							<a href="ourkayaks.html">Our Kayaks</a>
+						</li>
+						<li class="nav-item">
+							<a href="contact.html">Contact</a>
+						</li>
+					</ul>
+					</ul>
+				</div>
+			</nav>
+		</header>
+	</div>
 
 
 	<h2>About Us</h2>
 	<section>
-		<video class="videoau" width="768"	height="576" autoplay muted>
+		<video class="videoau" width="50%"	height="auto" autoplay muted>
 			<source src="..\img\Video1.mp4" type="video/mp4">
 			<source src="..\img\Video1.ogg" type="video/ogg">
 			<!-- este ultimo no lo tengo en formato .ogg pero me parecio correcto agrregarlo al codigo -->	
@@ -70,4 +83,7 @@
 		</ul>		
 		<p>Copyright and Social Networks</p>		
 	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 </body>

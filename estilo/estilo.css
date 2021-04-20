@@ -11,81 +11,32 @@ a {
 	text-decoration: none;
 }
 
-/* inicio estilo header */
-header {
-	background-color: #F9DE92;
-	width: 100%;
-	height: 90px;
+.navbar-dark a{
+	color: #44577F !important; 
 }
 
-.navbarheader {
-	display: flex;
+.navbar-toggler-icon{
+	color: #44577F !important;
 }
 
-.logo {
-	
-	display: flex;
-	flex-flow: row wrap;
-	align-items: center;
-	position: relative;
-	left: 80px;
-}
-.logo a {
-	color: #44577F;
-}
+.bg-dark { 
+	background-color: #F9DE92 !important; 
+ }
 
-.logoimg img{
-	border-radius: 50%;
-}
-
-.navbar {
-	list-style: none;
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-end;
-	align-items: center;
-	width: 750px;
-	position: relative;
-	left: 20%;
-	
-}
-
-ul li {
-	color: #5c2a01; 
-	display: inline;
-	margin:20px;
-	padding: 10px;
-	z-index: 1;
-}
-
-.navbar ul li a {
-	display: inline-block;
-	color: #44577F;
-	
-}
-.navbar ul li a:hover {
-	background-color:#44577F;
-	color:#F9DE92; 
-	border-color:#44577F;
-	padding: 2px;
-
-}
-
-.current a{
-	color:#44577F; 
-	text-decoration: underline;
-}
-/* fin estilo header*/
-
+ .nav-item {
+ 	margin: 20px; 
+ }
 
 h2, h3 {
 	color: #44577F;
 	display: flex;
 	justify-content: center;
 	position: relative;
-	left: 40%;
-	width: 325px;
-	
+	padding: 10px;
+}
+
+.ouractivities {
+	margin: 20px;
 }
 
 .indeximg {
@@ -97,23 +48,15 @@ h2, h3 {
 
 .videoau {
 	position: relative;
-	left: 24%; 
+	left: 28%; 
 }
 
 .contactimg{
-	position: relative;
-	left: 30%; 
-}
- /*carousel para Our Activities */
-.carousel-item img {
 	width: 50%;
 	height: auto;
-	position: relative;
-	left: 28%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-} /* en proceso de mejora */
+	position:relative;
+	left: 25%;
+}
 
 article	{
 	background-color: #fefae0; 
@@ -135,11 +78,13 @@ footer	{
 	justify-content: center;
 	align-content: center;
 	width: 100%;
+	
+
 }
 
 footer p {
 	display: flex;
-	flex-flow: ;
+	flex-flow: row nowrap;
 	justify-content: center;
 	align-items: center;
 }
@@ -147,9 +92,11 @@ footer p {
 .socialmedia {
 	display: flex;
 	align-content: center;
+	justify-content: center;
 	margin: 0px;
 	padding: 0px;
-
+	list-style: none;
+	
 }
 .ion-social-facebook{
 	margin:0px 5px 0px 5px;
@@ -160,8 +107,14 @@ footer p {
 	border-radius: 50%;
 	margin:10px;
 	padding: 10px;
+	display: flex;
+	flex-flow: row nowrap;
+	align-content: center;
+	justify-content: center;
+
 	
 } 
+
 .socialmedia a:hover{
 	color:#44577F;
 	background-color:#F9DE92;
@@ -169,27 +122,13 @@ footer p {
 
 /*fin estilo footer*/
 
-   /*efectos de imagenes en Our Activities*/
-.carousel-item{
-	padding: 10px;
-	margin:10px;
-}
-
-.fxs2 {
-	transition: transform 0.5s;
-	cursor: pointer;
-}	
-
-.fxs2:hover{
-	transform: scale(1.15);
-
-}
 
 /*Tabla en Our Kayaks*/
 
 table{
 	position: relative;
 	left: 27%;
+	margin-bottom: 10px;
 }
 
 table, th, td {
